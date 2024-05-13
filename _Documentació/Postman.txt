@@ -1,0 +1,18 @@
+POST http://localhost:8080/escola/professors/add
+
+{
+    "nom": "Pere",
+    "cognoms": "Solís",
+    "especialitat": "Ciències Naturals"
+}
+
+
+========================================================
+
+POST http://localhost:8080/escola/estudiants/add
+
+{
+    "nom": "Alfons",
+    "cognoms": "Gol",
+    "curs": 1
+}
